@@ -42,7 +42,7 @@
             color: var(--light);
             line-height: 1.7;
             transition: background var(--transition), color var(--transition);
-            background-image: url('https://images.unsplash.com/photo-1541411438265-4cb4687110f7?auto=format&fit=crop&w=1920&q=80');
+            background-image: url('https://cdn.pixabay.com/photo/2016/03/27/21/59/octopus-1284049_1280.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -300,25 +300,5 @@ And become part of the cosmic refrain.
     <footer>
         <p>&copy; 2024 My Sight, All rights reserved.</p>
     </footer>
-
-    <script>
-        const btn = document.getElementById('toggleMode');
-        btn.addEventListener('click', () => {
-            document.body.classList.toggle('light');
-        });
-    </script>
-<script>
-  // Random Lovecraft-style backgrounds
-  const backgrounds = [
-    "https://images.unsplash.com/photo-1541411438265-4cb4687110f7?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1509537257950-20f875b03669?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1526318472351-bc6cb9853185?auto=format&fit=crop&w=1920&q=80",
-    "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80"
-  ];
-
-  const chosen = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-  document.body.style.backgroundImage = `url('${chosen}')`;
-</script>
 </body>
 </html>
